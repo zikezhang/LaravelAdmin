@@ -1,0 +1,28 @@
+{
+    "name": "verecom/admin",
+    "description": "Admin Panel for Laravel 4 with User, Groups and Permissions management using Cartalyst Sentry as auth provider",
+    "keywords": ["laravel", "admin", "backend", "sentry", "cartalyst"],
+    "homepage": "https://github.com/zikezhang/LaravelAdmin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ZZK",
+            "email": "zhzike@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "~4",
+        "cartalyst/sentry": "2.1.*",
+        "anahkiasen/former": "3.5.*"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations"
+        ],
+        "psr-0": {
+            "Verecom\\Admin": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
