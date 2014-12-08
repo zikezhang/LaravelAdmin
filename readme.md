@@ -48,7 +48,8 @@ To create a user simply do `php artisan admin:user`
 
 Done! Just go to [http://localhost/admin](http://localhost/admin) to access the admin panel.
 
-##Missing
+##Future
+* Dashborad Page in Admin
 * Send Activation code by email when user register
 * Password reset/reminder
 * unit test… started reading Laravel Testing decoded ;-)
