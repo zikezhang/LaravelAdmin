@@ -51,7 +51,7 @@ To create a user simply do `php artisan admin:user`
 
 Done! Just go to [http://localhost/admin](http://localhost/admin) to access the admin panel.
 
-##Future
+##Missing
 * Dashborad Page in Admin
 * Send Activation code by email when user register
 * Password reset/reminder
