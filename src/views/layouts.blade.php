@@ -71,15 +71,15 @@
                                         @endif
                                     @endforeach 
                                    -->
-                                    <li><a href="http://localhost/admin/public/admin"><i class="icon-dashboard">&nbsp;</i>Dashboard</a></li>
+                                    <li><a href="{{URL::to('admin')}}"><i class="icon-dashboard">&nbsp;</i>Dashboard</a></li>
                                     <li class="dropdown">
                                                 <a data-toggle="dropdown" class="dropdown-toggle" href="blank.html#">
                                                    <i class="icon-user">&nbsp;</i>Users <b class="caret"></b>
                                                 </a>
                                                 <ul class="dropdown-menu">
-                                                    <li><a href="http://localhost/admin/public/admin/users">Manage Users</a></li>
-                                                    <li><a href="http://localhost/admin/public/admin/groups">Groups</a></li>
-                                                    <li><a href="http://localhost/admin/public/admin/permissions">Permissions</a></li>
+                                                    <li><a href="{{URL::to('admin/users')}}">Manage Users</a></li>
+                                                    <li><a href="{{URL::to('admin/groups')}">Groups</a></li>
+                                                    <li><a href="{{URL::to('admin/permissions')}">Permissions</a></li>
                                                 </ul>
                                      </li>
                                 </ul>
