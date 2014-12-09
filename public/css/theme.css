@@ -94,8 +94,9 @@ body {
 }
 .head .main-bar h3 {
   color: #BABABA;
-  line-height: 29px;
+  line-height: 10px;
   text-shadow: 0 1px 0 rgba(51, 47, 47, 0.6);
+  font-size: 14px;
 }
 .head .main-bar h3 small {
     font-size: 16px;
