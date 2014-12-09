@@ -128,7 +128,7 @@
 
     <div class="clearfix"></div>
     <div id="footer">
-        <p>2013 © {{ $admin['site_name'] }} </p>
+        <p>Copyright &COPY; {{ date('Y') }}</p>
     </div>
 
     <!-- #helpModal -->
