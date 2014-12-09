@@ -53,6 +53,7 @@
                                 <!-- .nav -->
                                 <ul class="nav">
                                 <!--  
+                                you can move menu into config file in the feature.
                                 	@foreach (Config::get('admin::menu') as $title => $args)
                                         @if ($args['type'] === 'single')
                                             <li>{{ HTML::linkRoute($args['route'], $title) }}</li>
@@ -70,9 +71,7 @@
                                         @endif
                                     @endforeach 
                                    -->
-                                    @if(Sentry::getUser()->hasAccess('groupname'))
-                                    	<li><a href="http://localhost/admin/public/admin"><i class="icon-dashboard">&nbsp;</i>Dashboard</a></li>
-                                    @endif
+                                    <li><a href="http://localhost/admin/public/admin"><i class="icon-dashboard">&nbsp;</i>Dashboard</a></li>
                                     <li class="dropdown">
                                                 <a data-toggle="dropdown" class="dropdown-toggle" href="blank.html#">
                                                    <i class="icon-user">&nbsp;</i>Users <b class="caret"></b>
