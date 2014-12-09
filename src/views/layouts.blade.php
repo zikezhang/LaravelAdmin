@@ -71,16 +71,16 @@
                                         @endif
                                     @endforeach 
                                    -->
-                                    <li><a href="{{URL::to('admin')}}"><i class="icon-dashboard">&nbsp;</i>Dashboard</a></li>
+                                    <li><a href="{{URL::to('admin/')}}"><i class="icon-dashboard">&nbsp;</i>Dashboard</a></li>
                                     <li class="dropdown">
-                                                <a data-toggle="dropdown" class="dropdown-toggle" href="blank.html#">
-                                                   <i class="icon-user">&nbsp;</i>Users <b class="caret"></b>
-                                                </a>
-                                                <ul class="dropdown-menu">
-                                                    <li><a href="{{URL::to('admin/users')}}">Manage Users</a></li>
-                                                    <li><a href="{{URL::to('admin/groups')}">Groups</a></li>
-                                                    <li><a href="{{URL::to('admin/permissions')}">Permissions</a></li>
-                                                </ul>
+                                        <a data-toggle="dropdown" class="dropdown-toggle" href="blank.html#">
+                                            <i class="icon-user">&nbsp;</i>Users <b class="caret"></b>
+                                        </a>
+                                       <ul class="dropdown-menu">
+                                            <li>{{HTML::linkRoute('admin.users.index','Manage Users')}}</li>
+                                            <li>{{HTML::link('admin/groups','Groups')}}</li>
+                                            <li>{{HTML::link('admin/permissions','Permissions')}}</li>
+                                       </ul>
                                      </li>
                                 </ul>
                                 <!-- /.nav -->
