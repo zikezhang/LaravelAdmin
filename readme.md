@@ -41,15 +41,15 @@ Then add the following Class Aliases
 'Sentry' => 'Cartalyst\Sentry\Facades\Laravel\Sentry',
 ```
 
-### Future
-* Bugs fix
-* text modify
-Finally run the following command in the terminal. `php artisan admin:install`
-This will publish the config files for Cartalyst/Sentry, Anahkiasen/Former and Verecom/Admin also it will run the migration.
+Finally run the following command in the terminal. php artisan admin:install This will publish the config files for Cartalyst/Sentry, Anahkiasen/Former and Stevemo/Cpanel also it will run the migration.
+
+To create a user simply do php artisan admin:user
+
+Done! Just go to http://localhost/admin to access the admin panel.
 
 To create a user simply do `php artisan admin:user`
 
-Done! Just go to [http://localhost/admin](http://localhost/admin) to access the admin panel.
+Done! Just go to [http://localhost/admin](http://localhost/admin) to access the admin dashborad.
 
 ##Missing
 * Dashborad Page in Admin
