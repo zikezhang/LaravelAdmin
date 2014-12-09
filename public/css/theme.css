@@ -49,8 +49,8 @@ body {
 /* END TOP bar */
 /* BEGIN header.head bar */
 .head {
-  height: 40px;
-  padding-bottom: 10px;
+  height: 20px;
+  padding-bottom: 15px;
   *zoom: 1;
 }
 .head:before,
