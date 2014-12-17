@@ -36,8 +36,8 @@ class CreatePermissionsTable extends Migration {
     /**
      * Create default Permissions
      *
-     * @author Steve Montambeault
-     * @link   http://verecom.com
+     *  
+     *  
      *
      * @return void
      */
