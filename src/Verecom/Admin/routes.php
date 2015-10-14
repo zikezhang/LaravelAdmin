@@ -11,7 +11,7 @@ Route::group(array('prefix' => Config::get('admin::prefix', 'admin')), function(
     */
     Route::get('/', array(
         'as'     => 'admin.home',
-        'uses'   => 'Verecom\Admin\Controllers\adminController@index',
+        'uses'   => 'Verecom\Admin\Controllers\AdminController@index',
         'before' => 'auth.admin:admin.view'
     ));
 
